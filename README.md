@@ -11,10 +11,13 @@ This is research software, not betting advice. You are responsible for any wager
 ```bash
 git clone https://github.com/rolani/soccer-predictor.git
 cd soccer-predictor
-pip install -e ".[web,dev]"
+python3 -m pip install -e ".[web,dev]"
+cp .env.example .env
 ```
 
-Copy `.env.example` to `.env` and add your API key from [Cursor Dashboard → Integrations](https://cursor.com/dashboard/integrations):
+On Windows, `python` and `copy .env.example .env` work the same way.
+
+Add your API key from [Cursor Dashboard → Integrations](https://cursor.com/dashboard/integrations) to `.env`:
 
 ```
 CURSOR_API_KEY=
@@ -24,17 +27,17 @@ Never commit `.env`. See [SECURITY.md](SECURITY.md).
 
 ## Web app (recommended)
 
-**Windows:**
-
-```powershell
-.\scripts\run-web.ps1
+```bash
+bash scripts/run-web.sh
 ```
 
-**Manual:**
+Windows PowerShell: `.\scripts\run-web.ps1`
+
+**Manual** (Linux, macOS, or Windows):
 
 ```bash
-cd webapp && npm install && npm run build
-python -m predictor.web.app
+cd webapp && npm install && npm run build && cd ..
+python3 -m predictor.web.app
 ```
 
 Open **http://127.0.0.1:8765**
@@ -56,17 +59,17 @@ Open **http://127.0.0.1:8765**
 ### SDK smoke test
 
 ```bash
-python scripts/sdk_spike.py
+python3 scripts/sdk_spike.py
 ```
 
 ### Automated tests
 
 ```bash
-pip install -e ".[web,dev]"
+python3 -m pip install -e ".[web,dev]"
 ruff check predictor tests predict.py
 ruff format --check predictor tests predict.py
-python -m pytest tests/ -m "not integration" -q   # unit tests (CI)
-python -m pytest tests/test_integration.py -v     # starts server, needs API key
+python3 -m pytest tests/ -m "not integration" -q   # unit tests (CI)
+python3 -m pytest tests/test_integration.py -v     # starts server, needs API key
 ```
 
 ## Odds source

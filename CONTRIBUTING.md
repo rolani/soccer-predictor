@@ -3,13 +3,14 @@
 ## Setup
 
 ```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-source .venv/bin/activate
-pip install -e ".[web,dev]"
-cp .env.example .env   # add CURSOR_API_KEY locally — never commit it
+python3 -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+python -m pip install -e ".[web,dev]"
+cp .env.example .env               # add CURSOR_API_KEY locally — never commit it
 cd webapp && npm ci && npm run build && cd ..
 ```
+
+To run the app: `bash scripts/run-web.sh` (Linux/macOS) or `.\scripts\run-web.ps1` (Windows).
 
 ## Checks (same as CI)
 
