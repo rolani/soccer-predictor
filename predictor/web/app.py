@@ -36,16 +36,27 @@ logger = logging.getLogger(__name__)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    client = await AsyncClient.launch_bridge(workspace=str(settings.repo_root))
-    await run_manager.set_client(client)
-    await analysis_manager.set_client(client)
-    app.state.sdk_client = client
-    logger.info("Cursor SDK bridge started for %s", settings.repo_root)
+    client = None
+    app.state.sdk_client = None
+    try:
+        client = await asyncio.wait_for(
+            AsyncClient.launch_bridge(workspace=str(settings.repo_root)),
+            timeout=20,
+        )
+        await run_manager.set_client(client)
+        await analysis_manager.set_client(client)
+        app.state.sdk_client = client
+        logger.info("Cursor SDK bridge started for %s", settings.repo_root)
+    except Exception:
+        logger.exception(
+            "Cursor SDK bridge unavailable — UI and boards still run; Generate needs the bridge"
+        )
     try:
         yield
     finally:
-        await client.aclose()
-        logger.info("Cursor SDK bridge closed")
+        if client is not None:
+            await client.aclose()
+            logger.info("Cursor SDK bridge closed")
 
 
 app = FastAPI(title="Soccer Predictor", lifespan=lifespan)
@@ -65,10 +76,11 @@ async def live_fixtures():
 
 
 @app.get("/api/health")
-async def health():
+async def health(request: Request):
     return {
         "ok": True,
         "has_api_key": bool(settings.cursor_api_key),
+        "sdk_ready": getattr(request.app.state, "sdk_client", None) is not None,
         "repo": str(settings.repo_root),
     }
 
@@ -77,7 +89,9 @@ async def health():
 async def list_models(request: Request):
     if not settings.cursor_api_key:
         raise HTTPException(503, "CURSOR_API_KEY not configured")
-    client: AsyncClient = request.app.state.sdk_client
+    client: AsyncClient | None = getattr(request.app.state, "sdk_client", None)
+    if client is None:
+        raise HTTPException(503, "Cursor SDK bridge is not running")
     try:
         models = await client.models.list()
         items = []

@@ -135,6 +135,17 @@ docker run --rm -p 8765:8765 -e CURSOR_API_KEY -e PREDICTOR_HOST=0.0.0.0 soccer-
 
 Pass the key at runtime. Do not bake it into the image.
 
+## Deploy on Render
+
+`render.yaml` defines a free Docker web service. It binds `0.0.0.0:$PORT` and health-checks `/api/health`.
+
+1. Push `main` to GitHub.
+2. Open the [Blueprint apply page](https://dashboard.render.com/blueprint/new?repo=https://github.com/rolani/soccer-predictor).
+3. Set **CURSOR_API_KEY** in the Dashboard (from [Cursor Integrations](https://cursor.com/dashboard/integrations)). Never commit it.
+4. Click **Apply**.
+
+Free instances spin down after 15 minutes of inactivity. `.runs/` and `.predictions/` are ephemeral and reset on each deploy or restart. Generate still needs the Cursor SDK bridge inside the container; boards and the UI load without it.
+
 ## Project layout
 
 ```

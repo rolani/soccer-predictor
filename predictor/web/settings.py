@@ -28,10 +28,12 @@ class Settings:
     @classmethod
     def load(cls) -> Settings:
         key = os.environ.get("CURSOR_API_KEY", "").strip()
-        host = os.environ.get("PREDICTOR_HOST", "127.0.0.1")
-        port = int(os.environ.get("PREDICTOR_PORT", "8765"))
+        on_render = os.environ.get("RENDER", "").lower() in {"1", "true", "yes"}
+        port_raw = os.environ.get("PREDICTOR_PORT") or os.environ.get("PORT") or "8765"
+        default_host = "0.0.0.0" if on_render or os.environ.get("PORT") else "127.0.0.1"
+        host = os.environ.get("PREDICTOR_HOST") or default_host
         model = os.environ.get("PREDICTOR_MODEL", "composer-2.5")
-        return cls(cursor_api_key=key, host=host, port=port, default_model=model)
+        return cls(cursor_api_key=key, host=host, port=int(port_raw), default_model=model)
 
 
 settings = Settings.load()

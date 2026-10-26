@@ -421,6 +421,28 @@ class TestSettings:
         s = Settings.load()
         assert s.cursor_api_key == "test_key_abc"
 
+    def test_local_defaults_stay_loopback(self, monkeypatch: pytest.MonkeyPatch):
+        monkeypatch.delenv("PREDICTOR_HOST", raising=False)
+        monkeypatch.delenv("PREDICTOR_PORT", raising=False)
+        monkeypatch.delenv("PORT", raising=False)
+        monkeypatch.delenv("RENDER", raising=False)
+        from predictor.web.settings import Settings
+
+        s = Settings.load()
+        assert s.host == "127.0.0.1"
+        assert s.port == 8765
+
+    def test_render_binds_platform_port(self, monkeypatch: pytest.MonkeyPatch):
+        monkeypatch.delenv("PREDICTOR_HOST", raising=False)
+        monkeypatch.delenv("PREDICTOR_PORT", raising=False)
+        monkeypatch.setenv("RENDER", "true")
+        monkeypatch.setenv("PORT", "10000")
+        from predictor.web.settings import Settings
+
+        s = Settings.load()
+        assert s.host == "0.0.0.0"
+        assert s.port == 10000
+
 
 class TestPriceProvenance:
     def test_pick_defaults_to_unpriced_source(self):
@@ -494,6 +516,14 @@ class TestPromptWithBoard:
         req = CreateRunRequest(scope=Scope.today)
         prompt = build_prompt(req, "run123")
         assert "famil" in prompt.lower()
+
+
+class TestHealthEndpoint:
+    def test_health_route_registered(self):
+        import predictor.web.app as app_module
+
+        paths = {r.path for r in app_module.app.routes}
+        assert "/api/health" in paths
 
 
 class TestOddsBoardEndpoint:
