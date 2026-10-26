@@ -1,0 +1,6822 @@
+[
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": true,
+  "hasAltTotal": true,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634269216,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": true,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": null,
+  "parentId": null,
+  "parlayRestriction": "unique_matchups",
+  "participants": [
+   {
+    "alignment": "home",
+    "name": "Lyon",
+    "order": 0,
+    "stats": [
+     {
+      "period": 0
+     },
+     {
+      "period": 1
+     },
+     {
+      "period": 8
+     }
+    ]
+   },
+   {
+    "alignment": "away",
+    "name": "Fenerbahce",
+    "order": 1,
+    "stats": [
+     {
+      "period": 0
+     },
+     {
+      "period": 1
+     },
+     {
+      "period": 8
+     }
+    ]
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "hasMoneyline": true,
+    "hasSpread": true,
+    "hasTeamTotal": true,
+    "hasTotal": true,
+    "period": 0,
+    "status": "open"
+   },
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "hasMoneyline": true,
+    "hasSpread": true,
+    "hasTeamTotal": true,
+    "hasTotal": true,
+    "period": 1,
+    "status": "open"
+   },
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "hasMoneyline": true,
+    "hasSpread": false,
+    "hasTeamTotal": false,
+    "hasTotal": false,
+    "period": 8,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 68,
+  "type": "matchup",
+  "units": "Regular",
+  "version": 697337849
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": true,
+  "hasAltTotal": true,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634595826,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": -1,
+   "group": "Europe",
+   "id": 205452,
+   "isFeatured": false,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 0,
+   "matchupCountSE": 0,
+   "name": "UEFA - Champions League Qualifiers Corners",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": "unique_matchups",
+  "participants": [
+   {
+    "alignment": "home",
+    "name": "Lyon (Corners)",
+    "order": 0,
+    "stats": [
+     {
+      "period": 0
+     },
+     {
+      "period": 1
+     }
+    ]
+   },
+   {
+    "alignment": "away",
+    "name": "Fenerbahce (Corners)",
+    "order": 1,
+    "stats": [
+     {
+      "period": 0
+     },
+     {
+      "period": 1
+     }
+    ]
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "hasMoneyline": false,
+    "hasSpread": true,
+    "hasTeamTotal": true,
+    "hasTotal": true,
+    "period": 0,
+    "status": "open"
+   },
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "hasMoneyline": false,
+    "hasSpread": true,
+    "hasTeamTotal": false,
+    "hasTotal": true,
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 6,
+  "type": "matchup",
+  "units": "Corners",
+  "version": 697305480
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662313,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662321,
+    "name": "Lyon (+1)",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662322,
+    "name": "Draw - (Lyon +1)",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662323,
+    "name": "Fenerbahce (-1)",
+    "order": 0,
+    "rotation": 19600
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "3-Way Handicap Lyon +1"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662331,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662340,
+    "name": "Yes",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662341,
+    "name": "No",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Fenerbahce To Win to Nil? 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662348,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662355,
+    "name": "Yes",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662356,
+    "name": "No",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Either Team To Score? 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662385,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662403,
+    "name": "Lyon Or Draw",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662404,
+    "name": "Draw Or Fenerbahce",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662405,
+    "name": "Lyon Or Fenerbahce",
+    "order": 0,
+    "rotation": 19600
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Double Chance"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662412,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662433,
+    "name": "Lyon 0, Fenerbahce 0",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662434,
+    "name": "Lyon 0, Fenerbahce 1",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662435,
+    "name": "Lyon 0, Fenerbahce 2",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662436,
+    "name": "Lyon 0, Fenerbahce 3",
+    "order": 0,
+    "rotation": 19601
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662437,
+    "name": "Lyon 1, Fenerbahce 0",
+    "order": 0,
+    "rotation": 19602
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662438,
+    "name": "Lyon 1, Fenerbahce 1",
+    "order": 0,
+    "rotation": 19603
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662439,
+    "name": "Lyon 1, Fenerbahce 2",
+    "order": 0,
+    "rotation": 19604
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662440,
+    "name": "Lyon 1, Fenerbahce 3",
+    "order": 0,
+    "rotation": 19605
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662441,
+    "name": "Lyon 2, Fenerbahce 0",
+    "order": 0,
+    "rotation": 19606
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662442,
+    "name": "Lyon 2, Fenerbahce 1",
+    "order": 0,
+    "rotation": 19607
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662443,
+    "name": "Lyon 2, Fenerbahce 2",
+    "order": 0,
+    "rotation": 19608
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662444,
+    "name": "Lyon 2, Fenerbahce 3",
+    "order": 0,
+    "rotation": 19609
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662445,
+    "name": "Lyon 3, Fenerbahce 0",
+    "order": 0,
+    "rotation": 19610
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662446,
+    "name": "Lyon 3, Fenerbahce 1",
+    "order": 0,
+    "rotation": 19611
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662447,
+    "name": "Lyon 3, Fenerbahce 2",
+    "order": 0,
+    "rotation": 19612
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662448,
+    "name": "Lyon 3, Fenerbahce 3",
+    "order": 0,
+    "rotation": 19613
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Correct Score 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662455,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662465,
+    "name": "0",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662466,
+    "name": "1",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662467,
+    "name": "2",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662468,
+    "name": "3",
+    "order": 0,
+    "rotation": 19601
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662469,
+    "name": "4+",
+    "order": 0,
+    "rotation": 19602
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Exact Total Goals 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662476,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662484,
+    "name": "Lyon",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662485,
+    "name": "Fenerbahce",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662486,
+    "name": "Neither",
+    "order": 0,
+    "rotation": 19600
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "First Team To Score 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "1st Goal",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662495,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662508,
+    "name": "0 - 1",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662509,
+    "name": "2 - 3",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662510,
+    "name": "4 - 6",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662511,
+    "name": "7+",
+    "order": 0,
+    "rotation": 19601
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Total Goals Range"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662565,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662668,
+    "name": "Yes & Over 2.5",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662669,
+    "name": "Yes & Under 2.5",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662670,
+    "name": "No & Over 2.5",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662671,
+    "name": "No & Under 2.5",
+    "order": 0,
+    "rotation": 19601
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Both Teams To Score/Total Goals"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662679,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662686,
+    "name": "Lyon Or Draw",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662687,
+    "name": "Draw Or Fenerbahce",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662688,
+    "name": "Lyon Or Fenerbahce",
+    "order": 0,
+    "rotation": 19600
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Double Chance 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662694,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662699,
+    "name": "Odd",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662700,
+    "name": "Even",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Total Goals Odd/Even 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662706,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662711,
+    "name": "Lyon",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662712,
+    "name": "Fenerbahce",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Draw No Bet 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662719,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662729,
+    "name": "Yes & Lyon",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662730,
+    "name": "Yes & Draw",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662731,
+    "name": "Yes & Fenerbahce",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662732,
+    "name": "No & Lyon",
+    "order": 0,
+    "rotation": 19601
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662733,
+    "name": "No & Draw",
+    "order": 0,
+    "rotation": 19602
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662734,
+    "name": "No & Fenerbahce",
+    "order": 0,
+    "rotation": 19603
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Both Teams To Score/Winner"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662741,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662751,
+    "name": "Lyon & Over 2.5",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662752,
+    "name": "Lyon & Under 2.5",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662753,
+    "name": "Draw & Over 2.5",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662754,
+    "name": "Draw & Under 2.5",
+    "order": 0,
+    "rotation": 19601
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662755,
+    "name": "Fenerbahce & Over 2.5",
+    "order": 0,
+    "rotation": 19602
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662756,
+    "name": "Fenerbahce & Under 2.5",
+    "order": 0,
+    "rotation": 19603
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Winner/Total Goals"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662776,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662796,
+    "name": "Lyon (+2)",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662797,
+    "name": "Draw - (Lyon +2)",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662798,
+    "name": "Fenerbahce (-2)",
+    "order": 0,
+    "rotation": 19600
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "3-Way Handicap Lyon +2"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662807,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662819,
+    "name": "0",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662820,
+    "name": "1",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662821,
+    "name": "2",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662822,
+    "name": "3",
+    "order": 0,
+    "rotation": 19601
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662823,
+    "name": "4",
+    "order": 0,
+    "rotation": 19602
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662824,
+    "name": "5+",
+    "order": 0,
+    "rotation": 19603
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Fenerbahce Goals"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662831,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662838,
+    "name": "Lyon",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662839,
+    "name": "Fenerbahce",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662840,
+    "name": "Neither",
+    "order": 0,
+    "rotation": 19600
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "First Team To Score"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "1st Goal",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662866,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662873,
+    "name": "Yes",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662874,
+    "name": "No",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Either Team To Score?"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662881,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662887,
+    "name": "Odd",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662888,
+    "name": "Even",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Fenerbahce Goals Odd/Even"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662894,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662900,
+    "name": "Lyon (-4)",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662901,
+    "name": "Draw - (Lyon -4)",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662902,
+    "name": "Fenerbahce (+4)",
+    "order": 0,
+    "rotation": 19600
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "3-Way Handicap Lyon -4"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662908,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662916,
+    "name": "0",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662917,
+    "name": "1",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662918,
+    "name": "2",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662919,
+    "name": "3",
+    "order": 0,
+    "rotation": 19601
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662920,
+    "name": "4+",
+    "order": 0,
+    "rotation": 19602
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Lyon Goals 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662930,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662939,
+    "name": "Yes",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662940,
+    "name": "No",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Both Teams To Score? 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662950,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662960,
+    "name": "Lyon (-1)",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662961,
+    "name": "Draw - (Lyon -1)",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662962,
+    "name": "Fenerbahce (+1)",
+    "order": 0,
+    "rotation": 19600
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "3-Way Handicap Lyon -1"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662969,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634662975,
+    "name": "Odd",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634662976,
+    "name": "Even",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Lyon Goals Odd/Even"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634662986,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663002,
+    "name": "Lyon - Lyon",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663003,
+    "name": "Lyon - Draw",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663004,
+    "name": "Lyon - Fenerbahce",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663005,
+    "name": "Draw - Lyon",
+    "order": 0,
+    "rotation": 19601
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663006,
+    "name": "Draw - Draw",
+    "order": 0,
+    "rotation": 19602
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663007,
+    "name": "Draw - Fenerbahce",
+    "order": 0,
+    "rotation": 19603
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663008,
+    "name": "Fenerbahce - Lyon",
+    "order": 0,
+    "rotation": 19604
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663009,
+    "name": "Fenerbahce - Draw",
+    "order": 0,
+    "rotation": 19605
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663010,
+    "name": "Fenerbahce - Fenerbahce",
+    "order": 0,
+    "rotation": 19606
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Half-Time/Full-Time"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "CombinedResult",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663017,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663024,
+    "name": "0 - 1",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663025,
+    "name": "2 - 3",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663026,
+    "name": "4+",
+    "order": 0,
+    "rotation": 19600
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Total Goals Range 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663033,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663039,
+    "name": "Yes",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663040,
+    "name": "No",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Lyon To Score?"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663046,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663098,
+    "name": "Lyon 0, Fenerbahce 0",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663099,
+    "name": "Lyon 0, Fenerbahce 1",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663100,
+    "name": "Lyon 0, Fenerbahce 2",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663101,
+    "name": "Lyon 0, Fenerbahce 3",
+    "order": 0,
+    "rotation": 19601
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663102,
+    "name": "Lyon 0, Fenerbahce 4",
+    "order": 0,
+    "rotation": 19602
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663103,
+    "name": "Lyon 0, Fenerbahce 5",
+    "order": 0,
+    "rotation": 19603
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663104,
+    "name": "Lyon 0, Fenerbahce 6",
+    "order": 0,
+    "rotation": 19604
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663105,
+    "name": "Lyon 1, Fenerbahce 0",
+    "order": 0,
+    "rotation": 19605
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663106,
+    "name": "Lyon 1, Fenerbahce 1",
+    "order": 0,
+    "rotation": 19606
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663107,
+    "name": "Lyon 1, Fenerbahce 2",
+    "order": 0,
+    "rotation": 19607
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663108,
+    "name": "Lyon 1, Fenerbahce 3",
+    "order": 0,
+    "rotation": 19608
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663109,
+    "name": "Lyon 1, Fenerbahce 4",
+    "order": 0,
+    "rotation": 19609
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663110,
+    "name": "Lyon 1, Fenerbahce 5",
+    "order": 0,
+    "rotation": 19610
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663111,
+    "name": "Lyon 1, Fenerbahce 6",
+    "order": 0,
+    "rotation": 19611
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663112,
+    "name": "Lyon 2, Fenerbahce 0",
+    "order": 0,
+    "rotation": 19612
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663113,
+    "name": "Lyon 2, Fenerbahce 1",
+    "order": 0,
+    "rotation": 19613
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663114,
+    "name": "Lyon 2, Fenerbahce 2",
+    "order": 0,
+    "rotation": 19614
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663115,
+    "name": "Lyon 2, Fenerbahce 3",
+    "order": 0,
+    "rotation": 19615
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663116,
+    "name": "Lyon 2, Fenerbahce 4",
+    "order": 0,
+    "rotation": 19616
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663117,
+    "name": "Lyon 2, Fenerbahce 5",
+    "order": 0,
+    "rotation": 19617
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663118,
+    "name": "Lyon 2, Fenerbahce 6",
+    "order": 0,
+    "rotation": 19618
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663119,
+    "name": "Lyon 3, Fenerbahce 0",
+    "order": 0,
+    "rotation": 19619
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663120,
+    "name": "Lyon 3, Fenerbahce 1",
+    "order": 0,
+    "rotation": 19620
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663121,
+    "name": "Lyon 3, Fenerbahce 2",
+    "order": 0,
+    "rotation": 19621
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663122,
+    "name": "Lyon 3, Fenerbahce 3",
+    "order": 0,
+    "rotation": 19622
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663123,
+    "name": "Lyon 3, Fenerbahce 4",
+    "order": 0,
+    "rotation": 19623
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663124,
+    "name": "Lyon 3, Fenerbahce 5",
+    "order": 0,
+    "rotation": 19624
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663125,
+    "name": "Lyon 3, Fenerbahce 6",
+    "order": 0,
+    "rotation": 19625
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663126,
+    "name": "Lyon 4, Fenerbahce 0",
+    "order": 0,
+    "rotation": 19626
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663127,
+    "name": "Lyon 4, Fenerbahce 1",
+    "order": 0,
+    "rotation": 19627
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663128,
+    "name": "Lyon 4, Fenerbahce 2",
+    "order": 0,
+    "rotation": 19628
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663129,
+    "name": "Lyon 4, Fenerbahce 3",
+    "order": 0,
+    "rotation": 19629
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663130,
+    "name": "Lyon 4, Fenerbahce 4",
+    "order": 0,
+    "rotation": 19630
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663131,
+    "name": "Lyon 4, Fenerbahce 5",
+    "order": 0,
+    "rotation": 19631
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663132,
+    "name": "Lyon 4, Fenerbahce 6",
+    "order": 0,
+    "rotation": 19632
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663133,
+    "name": "Lyon 5, Fenerbahce 0",
+    "order": 0,
+    "rotation": 19633
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663134,
+    "name": "Lyon 5, Fenerbahce 1",
+    "order": 0,
+    "rotation": 19634
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663135,
+    "name": "Lyon 5, Fenerbahce 2",
+    "order": 0,
+    "rotation": 19635
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663136,
+    "name": "Lyon 5, Fenerbahce 3",
+    "order": 0,
+    "rotation": 19636
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663137,
+    "name": "Lyon 5, Fenerbahce 4",
+    "order": 0,
+    "rotation": 19637
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663138,
+    "name": "Lyon 5, Fenerbahce 5",
+    "order": 0,
+    "rotation": 19638
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663139,
+    "name": "Lyon 5, Fenerbahce 6",
+    "order": 0,
+    "rotation": 19639
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663140,
+    "name": "Lyon 6, Fenerbahce 0",
+    "order": 0,
+    "rotation": 19640
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663141,
+    "name": "Lyon 6, Fenerbahce 1",
+    "order": 0,
+    "rotation": 19641
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663142,
+    "name": "Lyon 6, Fenerbahce 2",
+    "order": 0,
+    "rotation": 19642
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663143,
+    "name": "Lyon 6, Fenerbahce 3",
+    "order": 0,
+    "rotation": 19643
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663144,
+    "name": "Lyon 6, Fenerbahce 4",
+    "order": 0,
+    "rotation": 19644
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663145,
+    "name": "Lyon 6, Fenerbahce 5",
+    "order": 0,
+    "rotation": 19645
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663146,
+    "name": "Lyon 6, Fenerbahce 6",
+    "order": 0,
+    "rotation": 19646
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Correct Score"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663152,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663161,
+    "name": "Lyon By 1",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663162,
+    "name": "Lyon By 2+",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663163,
+    "name": "Fenerbahce By 1",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663164,
+    "name": "Fenerbahce By 2+",
+    "order": 0,
+    "rotation": 19601
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663165,
+    "name": "Any Score Draw (0:0 Excluded)",
+    "order": 0,
+    "rotation": 19602
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663166,
+    "name": "No Goal",
+    "order": 0,
+    "rotation": 19603
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Winning Margin 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663173,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663180,
+    "name": "Lyon (-2)",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663181,
+    "name": "Draw - (Lyon -2)",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663182,
+    "name": "Fenerbahce (+2)",
+    "order": 0,
+    "rotation": 19600
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "3-Way Handicap Lyon -2"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663191,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663207,
+    "name": "Lyon By 1",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663208,
+    "name": "Lyon By 2",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663209,
+    "name": "Lyon By 3",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663210,
+    "name": "Lyon By 4+",
+    "order": 0,
+    "rotation": 19601
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663211,
+    "name": "Fenerbahce By 1",
+    "order": 0,
+    "rotation": 19602
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663212,
+    "name": "Fenerbahce By 2",
+    "order": 0,
+    "rotation": 19603
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663213,
+    "name": "Fenerbahce By 3",
+    "order": 0,
+    "rotation": 19604
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663214,
+    "name": "Fenerbahce By 4+",
+    "order": 0,
+    "rotation": 19605
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663215,
+    "name": "Any Score Draw (0:0 Excluded)",
+    "order": 0,
+    "rotation": 19606
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663216,
+    "name": "No Goal",
+    "order": 0,
+    "rotation": 19607
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Winning Margin"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663222,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663227,
+    "name": "Yes",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663228,
+    "name": "No",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Lyon To Win to Nil?"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663235,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663244,
+    "name": "0",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663245,
+    "name": "1",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663246,
+    "name": "2",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663247,
+    "name": "3",
+    "order": 0,
+    "rotation": 19601
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663248,
+    "name": "4+",
+    "order": 0,
+    "rotation": 19602
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Fenerbahce Goals 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663254,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663259,
+    "name": "Odd",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663260,
+    "name": "Even",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Total Goals Odd/Even"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663273,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663290,
+    "name": "0",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663291,
+    "name": "1",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663292,
+    "name": "2",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663293,
+    "name": "3",
+    "order": 0,
+    "rotation": 19601
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663294,
+    "name": "4",
+    "order": 0,
+    "rotation": 19602
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663295,
+    "name": "5",
+    "order": 0,
+    "rotation": 19603
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663296,
+    "name": "6+",
+    "order": 0,
+    "rotation": 19604
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Exact Total Goals"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663303,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663310,
+    "name": "Lyon (-3)",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663311,
+    "name": "Draw - (Lyon -3)",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663312,
+    "name": "Fenerbahce (+3)",
+    "order": 0,
+    "rotation": 19600
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "3-Way Handicap Lyon -3"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663318,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663323,
+    "name": "Yes",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663324,
+    "name": "No",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Lyon To Score? 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663377,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663429,
+    "name": "Yes",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663430,
+    "name": "No",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Fenerbahce To Win to Nil?"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663440,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663449,
+    "name": "Yes",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663450,
+    "name": "No",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Both Teams To Score?"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663457,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663463,
+    "name": "Yes",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663464,
+    "name": "No",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Fenerbahce To Score?"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663500,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663505,
+    "name": "Yes",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663506,
+    "name": "No",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Lyon To Win to Nil? 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663515,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663525,
+    "name": "Odd & Over 2.5",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663526,
+    "name": "Odd & Under 2.5",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663527,
+    "name": "Even & Over 2.5",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663528,
+    "name": "Even & Under 2.5",
+    "order": 0,
+    "rotation": 19601
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Odd/Even / Total Goals"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663534,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663539,
+    "name": "Lyon",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663540,
+    "name": "Fenerbahce",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Draw No Bet"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663551,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663565,
+    "name": "0",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663566,
+    "name": "1",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663567,
+    "name": "2",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663568,
+    "name": "3",
+    "order": 0,
+    "rotation": 19601
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663569,
+    "name": "4",
+    "order": 0,
+    "rotation": 19602
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663570,
+    "name": "5+",
+    "order": 0,
+    "rotation": 19603
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Lyon Goals"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634663577,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634663583,
+    "name": "Yes",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634663584,
+    "name": "No",
+    "order": 0,
+    "rotation": 19599
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 1,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Fenerbahce To Score? 1st Half"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Regular",
+  "version": 632644866
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": true,
+  "hasAltTotal": true,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634833520,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": -2,
+   "featureOrder": -1,
+   "group": "UEFA",
+   "id": 205453,
+   "isFeatured": false,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 0,
+   "matchupCountSE": 0,
+   "name": "UEFA - Champions League Qualifiers Bookings",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": "unique_matchups",
+  "participants": [
+   {
+    "alignment": "home",
+    "name": "Lyon (Bookings)",
+    "order": 0,
+    "stats": [
+     {
+      "period": 0
+     }
+    ]
+   },
+   {
+    "alignment": "away",
+    "name": "Fenerbahce (Bookings)",
+    "order": 1,
+    "stats": [
+     {
+      "period": 0
+     }
+    ]
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "hasMoneyline": true,
+    "hasSpread": true,
+    "hasTeamTotal": true,
+    "hasTotal": true,
+    "period": 0,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 5,
+  "type": "matchup",
+  "units": "Bookings",
+  "version": 697342433
+ },
+ {
+  "ageLimit": 0,
+  "altTeaser": false,
+  "featureOrder": -1,
+  "hasAltSpread": false,
+  "hasAltTotal": false,
+  "hasBetshare": false,
+  "hasLive": true,
+  "hasMarkets": true,
+  "id": 1634833557,
+  "isBetshareEnabled": false,
+  "isFeatured": false,
+  "isHighlighted": false,
+  "isLive": false,
+  "isPromoted": false,
+  "league": {
+   "ageLimit": 0,
+   "featureOrder": 2,
+   "group": "Europe",
+   "id": 205451,
+   "isFeatured": true,
+   "isHidden": false,
+   "isPromoted": false,
+   "isSticky": false,
+   "matchupCount": 4,
+   "matchupCountSE": 4,
+   "name": "UEFA - Champions League Qualifiers",
+   "sequence": 6,
+   "sport": {
+    "featureOrder": 0,
+    "id": 29,
+    "isFeatured": true,
+    "isHidden": false,
+    "isSticky": false,
+    "matchupCount": 1036,
+    "matchupCountSE": 1015,
+    "name": "Soccer",
+    "primaryMarketType": "moneyline"
+   }
+  },
+  "liveMode": null,
+  "parent": {
+   "hasMarkets": true,
+   "id": 1634269216,
+   "isLive": false,
+   "participants": [
+    {
+     "alignment": "home",
+     "name": "Lyon",
+     "order": 0,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    },
+    {
+     "alignment": "away",
+     "name": "Fenerbahce",
+     "order": 1,
+     "stats": [
+      {
+       "period": 0
+      },
+      {
+       "period": 1
+      },
+      {
+       "period": 8
+      }
+     ]
+    }
+   ],
+   "startTime": "2026-08-26T19:00:00Z",
+   "state": {}
+  },
+  "parentId": 1634269216,
+  "parlayRestriction": null,
+  "participants": [
+   {
+    "alignment": "neutral",
+    "id": 1634833558,
+    "name": "Lyon To Win In 90 Minutes",
+    "order": 0,
+    "rotation": 19598
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634833559,
+    "name": "Fenerbahce To Win In 90 Minutes",
+    "order": 0,
+    "rotation": 19599
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634833560,
+    "name": "Lyon To Win In Extra Time",
+    "order": 0,
+    "rotation": 19600
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634833561,
+    "name": "Fenerbahce To Win In Extra Time",
+    "order": 0,
+    "rotation": 19601
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634833562,
+    "name": "Lyon To Win On Penalties",
+    "order": 0,
+    "rotation": 19602
+   },
+   {
+    "alignment": "neutral",
+    "id": 1634833563,
+    "name": "Fenerbahce To Win On Penalties",
+    "order": 0,
+    "rotation": 19603
+   }
+  ],
+  "periods": [
+   {
+    "cutoffAt": "2026-08-26T19:00:00Z",
+    "period": 8,
+    "status": "open"
+   }
+  ],
+  "rotation": 19598,
+  "special": {
+   "category": "Team Props",
+   "description": "Method Of Victory"
+  },
+  "startTime": "2026-08-26T19:00:00Z",
+  "state": {},
+  "status": "pending",
+  "totalMarketCount": 1,
+  "type": "special",
+  "units": "Method Of Victory",
+  "version": 632644866
+ }
+]

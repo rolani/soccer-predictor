@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SportyBet Predictions</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <header>
+    <h1>Predictions</h1>
+    <div class="actions">
+      <button type="button" id="selectFolderBtn" class="btn btn-secondary">Select folder</button>
+      <button type="button" id="loadFileBtn" class="btn btn-primary">Load file</button>
+      <input type="file" id="fileInput" accept=".csv,.txt,.md" hidden>
+      <button type="button" id="resetChecksBtn" class="btn btn-secondary" hidden>Reset checks</button>
+      <button type="button" id="clearBtn" class="btn btn-secondary">Clear</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="empty" class="empty-state">
+      <p>Load a prediction file (.csv, .txt, or .md) from your <code>.predictions</code> folder.</p>
+      <p class="hint">First time: click <strong>Select folder</strong> and choose <code>.predictions</code>. Then <strong>Load file</strong> will open there directly. Run <code>predict export</code> to generate files.</p>
+    </div>
+    <ul id="picks" class="picks-list" hidden></ul>
+  </main>
+
+  <footer id="footer" hidden>
+    <span id="count"></span>
+    <span id="odds" class="odds"></span>
+  </footer>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>

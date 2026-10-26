@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: webapp/package-lock.json
+
+      - name: Refuse tracked secrets
+        run: |
+          set -euo pipefail
+          if git ls-files | grep -E '(^|/)\.env$|\.pem$|credentials\.json$'; then
+            echo "Secret-like files are tracked" >&2
+            exit 1
+          fi
+          if git grep -E --line-number 'crsr_[A-Za-z0-9]{20,}' -- . \
+            ':(exclude).env.example' ':(exclude)**/*.md'; then
+            echo "Cursor API key pattern found in the tree" >&2
+            exit 1
+          fi
+
+      - name: Install Python package
+        run: pip install -e ".[web,dev]"
+
+      - name: Lint
+        run: |
+          ruff check predictor tests predict.py
+          ruff format --check predictor tests predict.py
+
+      - name: Build frontend
+        working-directory: webapp
+        run: npm ci && npm run build
+
+      - name: Tests
+        run: python -m pytest tests/ -m "not integration" -q

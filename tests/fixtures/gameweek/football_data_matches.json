@@ -1,0 +1,22 @@
+{
+  "filters": {"matchday": "3"},
+  "resultSet": {"count": 2},
+  "matches": [
+    {
+      "id": 1,
+      "utcDate": "2026-08-29T14:00:00Z",
+      "status": "TIMED",
+      "matchday": 3,
+      "homeTeam": {"name": "Arsenal"},
+      "awayTeam": {"name": "Chelsea"}
+    },
+    {
+      "id": 2,
+      "utcDate": "2026-08-28T19:00:00Z",
+      "status": "FINISHED",
+      "matchday": 3,
+      "homeTeam": {"name": "Liverpool"},
+      "awayTeam": {"name": "Everton"}
+    }
+  ]
+}

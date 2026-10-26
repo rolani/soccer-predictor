@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "id": "1001",
+      "date": "2026-08-29T14:00:00Z",
+      "week": {"number": 3},
+      "status": {"type": {"state": "pre"}},
+      "competitions": [
+        {
+          "competitors": [
+            {"homeAway": "home", "team": {"displayName": "Arsenal"}},
+            {"homeAway": "away", "team": {"displayName": "Chelsea"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002",
+      "date": "2026-08-28T19:00:00Z",
+      "week": {"number": 3},
+      "status": {"type": {"state": "post"}},
+      "competitions": [
+        {
+          "competitors": [
+            {"homeAway": "home", "team": {"displayName": "Liverpool"}},
+            {"homeAway": "away", "team": {"displayName": "Everton"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2001",
+      "date": "2026-09-05T14:00:00Z",
+      "week": {"number": 4},
+      "status": {"type": {"state": "pre"}},
+      "competitions": [
+        {
+          "competitors": [
+            {"homeAway": "home", "team": {"displayName": "Tottenham Hotspur"}},
+            {"homeAway": "away", "team": {"displayName": "West Ham United"}}
+          ]
+        }
+      ]
+    }
+  ]
+}

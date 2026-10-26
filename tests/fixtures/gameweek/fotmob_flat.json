@@ -1,0 +1,33 @@
+{
+  "fixtures": {
+    "allMatches": [
+      {
+        "round": "1",
+        "home": {"name": "Brighton"},
+        "away": {"name": "Bournemouth"},
+        "status": {"utcTime": "2026-08-22T14:00:00Z", "finished": true}
+      },
+      {
+        "round": "2",
+        "home": {"name": "Arsenal"},
+        "away": {"name": "Chelsea"},
+        "status": {"utcTime": "2026-08-29T14:00:00Z", "finished": false}
+      },
+      {
+        "round": "2",
+        "home": {"name": "Liverpool"},
+        "away": {"name": "Everton"},
+        "status": {"utcTime": "2026-08-28T19:00:00Z", "finished": false}
+      },
+      {
+        "round": "3",
+        "home": {"name": "Tottenham Hotspur"},
+        "away": {"name": "West Ham United"},
+        "status": {"utcTime": "2026-09-05T14:00:00Z", "finished": false}
+      }
+    ],
+    "fixtureInfo": {
+      "activeRound": {"roundId": "2"}
+    }
+  }
+}

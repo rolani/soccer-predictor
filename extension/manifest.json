@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "SportyBet Predictions",
+  "version": "1.0.0",
+  "description": "View your soccer predictions alongside SportyBet",
+  "permissions": ["sidePanel"],
+  "action": {
+    "default_title": "Open predictions"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

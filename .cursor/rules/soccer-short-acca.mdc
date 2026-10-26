@@ -1,0 +1,15 @@
+---
+description: Soccer accumulator from researched picks — leg count and combined odds set by user. Use for /predictions-accumulator.
+alwaysApply: false
+---
+
+# Acca
+
+Build **one acca** from picks that would each stand alone as singles.
+
+- Leg count and combined odds range come from the UI / user request — not hard-coded
+- Every leg must pass the same confidence gate as a single
+- All markets allowed when evidenced
+- Populate `suggested_tickets` with leg indices (web app)
+
+Save suffix (chat): `_acca-today.md` or `_acca-tomorrow.md`.

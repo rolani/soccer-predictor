@@ -1,0 +1,17 @@
+---
+description: Hybrid soccer product — singles plus optional acca from the same research. Use for /predictions-today and /predictions-tomorrow.
+alwaysApply: false
+---
+
+# Hybrid (default)
+
+Two sections when using chat output. Stake singles separately.
+
+1. **Singles** — every pick that passes the confidence gate and user odds range. No fixed count — quality over quantity.
+2. **Suggested acca (optional)** — legs drawn from the same researched picks when joint probability justifies it. User/UI sets target combined odds.
+
+If nothing qualifies, output zero picks and explain in skipped.
+
+Web app: set `ticket_mode: hybrid` and populate `suggested_tickets`.
+
+Save suffix (chat): `_today.md` or `_tomorrow.md`.

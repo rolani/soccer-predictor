@@ -1,0 +1,48 @@
+---
+description: Live soccer betting — in-play picks gated by research confidence. Use for /predictions-live. Prefer no bet over a weak live pick.
+alwaysApply: false
+---
+
+# Live singles
+
+Only matches **currently in play**. Stake as **singles**. Never a live accumulator.
+
+Read **`live-fixtures.md`** for source URLs and verification checklist.
+
+## Live discovery (required)
+
+1. **ESPN API snapshot** — injected in web app prompts (`/api/live/fixtures`).
+2. **Cross-check every candidate** on:
+   - [LiveScore live hub](https://www.livescore.com/en/football/live/)
+   - [FlashScore](https://www.flashscore.com/)
+   - [Sofascore](https://www.sofascore.com/) — preferred for **xG, shots, corners, cards**
+   - [FotMob live](https://www.fotmob.com/live) — backup stats
+3. Copy the remaining/match line from the priced market board when it is there. **No board quote does not block publishing** — set `price_available: false`, omit `odds`, note in reasoning.
+
+If ESPN shows zero games, still scan LiveScore/FlashScore/Sofascore — do not assume the slate is empty.
+
+## What to record per checked match
+
+League, match, **minute**, **score**, shots/xG/corners if available, live price or "no price", verdict (pick candidate / skip + why).
+
+Output however many picks pass the confidence gate (often **0**). Populate `skipped[]` for every in-play game reviewed.
+
+## Live markets (all allowed when evidenced)
+
+- No more goals / Under remaining — sit-in, 2-0 after 70', 0-0 no chances
+- Over/under remaining or match
+- Double chance, DNB, Asian handicap
+- Corners O/U — name the line
+- Team over 0.5 remaining / next goal
+
+## Typical patterns
+
+- 0-0 after 55' **with chances** → remaining over / next goal
+- 0-0 **no chances** → no more goals / remaining under
+- Favourite 0-1 with xG lead → team over remaining, DNB, DC
+- 2-0+ after 75' → no more goals / under remaining
+- Skip after 88' unless 6+ added minutes
+
+**No board price = still publish** (set `price_available: false`, no odds). **Before 55' on 0-0 with no chances = skip** unless a clear live edge exists.
+
+Web app: `scope: live`. Chat save: `_live.md`.

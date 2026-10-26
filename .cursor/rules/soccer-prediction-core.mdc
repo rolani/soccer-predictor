@@ -1,0 +1,84 @@
+---
+description: Soccer predictions — research-first, confidence-gated picks
+alwaysApply: true
+---
+
+# Soccer predictions — research first
+
+**Timezone:** Eastern. Verify kickoffs on ESPN, Guardian, LiveScore, or FlashScore.
+
+**Gameweek kickoffs:** two of football-data.org / FotMob / ESPN; agent still verifies LiveScore/FlashScore/Sofascore. ESPN is not sole authority.
+
+## Evidence (required per pick)
+
+Read **`.analysis/MASTER.md`** for historical priors — not as bans, but to calibrate confidence.
+
+Every published pick must document:
+
+1. **Kickoff** — verified time (ET) + source
+2. **Form** — last 5–10 games relevant to the *specific market*
+3. **H2H** — 3–5 meetings when the market depends on matchup history
+4. **Squad** — injuries, rotation, motivation (knockout agg, relegation, etc.)
+5. **Venue** — home/away, altitude, travel, weather when relevant
+6. **Market stats** — corner counts, half-by-half goals, clean-sheet runs, xG when available
+7. **Price** — take the decimal odds from the priced market board in the prompt. Never estimate a price.
+
+Tip sites (soccersite, footystats, forebet, etc.) are **screens only** — never the sole evidence.
+
+## Confidence gate
+
+Each pick carries:
+
+- **`confidence`** (0–100) — your overall certainty after research
+- **`estimated_probability`** (0–1) — fair chance this bet wins
+- **`reasoning`** — 1–2 sentences for the web app
+- **`evidence`** — 2–4 bullets citing specific numbers
+- **`risks`** — named scenario penalties (see below)
+
+**Publish when:** `estimated_probability >= (1 / odds) + margin_buffer` AND confidence meets the user's floor (default 75). The UI sets odds range and margin — not hard-coded rules.
+
+**Prices are server-supplied.** The web app fetches real market prices and hands them to you as a priced market board. Copy the number exactly. The server re-checks every price and overwrites anything that does not match, so a guessed number is simply replaced.
+
+**Off-board fixtures still publish.** When the board has no price for a fixture or market — small cups, women's qualifiers, some in-play games — publish with `price_available: false` and no odds. The research is the product; the user sources the price. The confidence gate still applies.
+
+## Markets
+
+All markets are allowed when evidence supports them. Mix freely.
+
+Every family on the board is priced, so corners, handicaps, double chance, draw-no-bet, BTTS and first-half markets carry real numbers. Publish no more than half your picks from one family, and cover at least three families when the slate supports it.
+
+- Goals O/U (0.5 / 1.5 / 2.5 / 3.5; 1H and 2H)
+- No goal: BTTS No, team under 0.5, live no more goals / Under remaining
+- BTTS Yes/No
+- Double chance (1X, X2, 12)
+- Draw no bet, Asian handicap (name the line)
+- Corners O/U (name the line)
+- Team over 0.5 / next goal (live)
+- 1X2 outrights, correct score, multiscores — when research is strong
+
+Use MASTER weak markets (DNB ~50%, DC ~40%, BTTS Yes ~44%, Over 2.5 ~50%) to **lower confidence**, not to auto-skip.
+
+## Scenario penalties (risks, not bans)
+
+State these in `risks[]` and adjust confidence down:
+
+- Knockout 2nd leg, visitor leads on aggregate (especially altitude) — overs penalized; no-more-goals may fit
+- 1-0 grind / parked underdog — prefer team over 0.5, under, BTTS No over blind Over 1.5
+- 3+ consecutive clean sheets against an Over 1.5
+- Thin-data cups (Expansión, unscouted Concacaf) — lower confidence, not auto-skip
+- Visitor rotated / playing for pens in 2nd leg
+- Under 3.5 only because the visitor attack is dead while home is live
+
+## True skips only
+
+- Kickoff unconfirmed (including Dimayor TBD)
+- Kickoff unconfirmed and the fixture is absent from the board
+- Genuinely no data to research (say why in `skipped`)
+- Gameweek membership needs two calendars
+
+## Output
+
+- Web app: call **`submit_picks`** with structured JSON (see `run-schema.md`)
+- Chat commands: still save `.predictions/YYYY-MM-DD/HH-MM-SS_<suffix>.md` when asked
+- Auto CSV export for the browser extension
+- One tip per match — never two markets on the same fixture (e.g. not Over 2.5 **and** team over 1.5 on Man City vs Bournemouth). Pick the single best market.

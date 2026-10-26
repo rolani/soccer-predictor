@@ -1,0 +1,9 @@
+{
+  "id": 2021,
+  "name": "Premier League",
+  "code": "PL",
+  "currentSeason": {
+    "id": 2301,
+    "currentMatchday": 3
+  }
+}

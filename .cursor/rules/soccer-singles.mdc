@@ -1,0 +1,14 @@
+---
+description: Singles-only soccer product — independent picks gated by research confidence. Use for /predictions-singles.
+alwaysApply: false
+---
+
+# Singles-first
+
+Output **independent** picks that pass the confidence gate. All markets allowed when evidenced.
+
+- Each pick: confidence, estimated_probability, reasoning, evidence, odds
+- No combined odds line
+- No acca table (web: `ticket_mode: singles`, empty `suggested_tickets`)
+
+Save suffix (chat): `_singles-today.md` or `_singles-tomorrow.md`.

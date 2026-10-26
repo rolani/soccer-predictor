@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* Rendered MASTER.md / analysis markdown */
+.analysis-md {
+  color: rgb(203 213 225);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.analysis-md h1,
+.analysis-md h2,
+.analysis-md h3 {
+  color: rgb(241 245 249);
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.analysis-md h1 { font-size: 1.25rem; }
+.analysis-md h2 { font-size: 1.125rem; }
+.analysis-md h3 { font-size: 1rem; }
+
+.analysis-md p {
+  margin: 0.75rem 0;
+}
+
+.analysis-md strong {
+  color: rgb(226 232 240);
+  font-weight: 600;
+}
+
+.analysis-md em {
+  color: rgb(148 163 184);
+}
+
+.analysis-md ul,
+.analysis-md ol {
+  margin: 0.5rem 0 0.75rem 1.25rem;
+}
+
+.analysis-md li {
+  margin: 0.35rem 0;
+}
+
+.analysis-md hr {
+  border: none;
+  border-top: 1px solid rgb(51 65 85);
+  margin: 1.25rem 0;
+}
+
+.analysis-md a {
+  color: rgb(167 139 250);
+  text-decoration: underline;
+}
+
+.analysis-md code {
+  background: rgb(15 23 42);
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.25rem;
+  font-size: 0.8em;
+}
+
+.analysis-md table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0 1rem;
+  font-size: 0.8125rem;
+}
+
+.analysis-md th,
+.analysis-md td {
+  border: 1px solid rgb(51 65 85);
+  padding: 0.45rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.analysis-md th {
+  background: rgb(15 23 42);
+  color: rgb(226 232 240);
+  font-weight: 600;
+}
+
+.analysis-md tr:nth-child(even) td {
+  background: rgb(15 23 42 / 0.5);
+}
+
+.analysis-md blockquote {
+  border-left: 3px solid rgb(124 58 237);
+  padding-left: 0.75rem;
+  margin: 0.75rem 0;
+  color: rgb(148 163 184);
+  font-style: italic;
+}

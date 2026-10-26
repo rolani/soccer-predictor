@@ -1,0 +1,40 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+secrets.json
+
+# Runtime data
+.runs/
+.predictions/
+.analysis/graded_runs.json
+.analysis/20*.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Frontend
+node_modules/
+webapp/dist/
+predictor/web/static/
+
+# Tooling / local agent scratch
+.superpowers/
+.DS_Store
+*.log
+*.tmp
