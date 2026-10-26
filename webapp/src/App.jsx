@@ -90,6 +90,12 @@ function PickCard({ pick, index, selected, onToggle }) {
               ) : (
                 <>
                   <span className="text-emerald-400 font-mono">@{pick.odds.toFixed(2)}</span>
+                  {pick.price_source === "flashscore" && (
+                    <span className="block text-[10px] text-slate-500">approx. Flashscore</span>
+                  )}
+                  {pick.price_source === "oddsfilter" && (
+                    <span className="block text-[10px] text-slate-500">approx. OddsFilter</span>
+                  )}
                   {pick.quoted_odds != null &&
                     Math.abs(pick.quoted_odds - pick.odds) > 0.005 && (
                       <span

@@ -78,6 +78,7 @@ class PricedBoard:
                             "odds": q.odds,
                             "raw_odds": q.raw_odds,
                             "fair": q.fair_probability,
+                            "source": q.source,
                         }
                         for q in f.quotes
                     ],
@@ -144,10 +145,30 @@ def build_board(
         matchups = list_matchups()
     except OddsUnavailable as e:
         logger.warning("Pinnacle unavailable: %s", e)
-        return PricedBoard(fixtures=[], fetched_at=fetched_at, errors=[str(e)])
+        return _with_public_odds_fallback(
+            [],
+            [str(e)],
+            fetched_at,
+            start_utc=start_utc,
+            end_utc=end_utc,
+            min_odds=min_odds,
+            max_odds=max_odds,
+            families=families,
+            max_fixtures=max_fixtures,
+        )
     except Exception as e:
         logger.warning("Pinnacle fetch/parse failed: %s", e)
-        return PricedBoard(fixtures=[], fetched_at=fetched_at, errors=[str(e)])
+        return _with_public_odds_fallback(
+            [],
+            [str(e)],
+            fetched_at,
+            start_utc=start_utc,
+            end_utc=end_utc,
+            min_odds=min_odds,
+            max_odds=max_odds,
+            families=families,
+            max_fixtures=max_fixtures,
+        )
 
     in_window: list[PinnacleMatchup] = []
     for m in matchups:
@@ -190,7 +211,58 @@ def build_board(
             )
         )
 
-    return PricedBoard(fixtures=fixtures, fetched_at=fetched_at, errors=errors)
+    board = PricedBoard(fixtures=fixtures, fetched_at=fetched_at, errors=errors)
+    if board.fixtures:
+        return board
+    return _with_public_odds_fallback(
+        fixtures,
+        errors or ["Pinnacle returned no priced fixtures"],
+        fetched_at,
+        start_utc=start_utc,
+        end_utc=end_utc,
+        min_odds=min_odds,
+        max_odds=max_odds,
+        families=families,
+        max_fixtures=max_fixtures,
+    )
+
+
+def _try_public_board(builder, label: str, errors: list[str], **kwargs) -> PricedBoard | None:
+    try:
+        board = builder(**kwargs)
+    except Exception as e:
+        logger.warning("%s fallback failed: %s", label, e)
+        errors.append(str(e))
+        return None
+    errors.extend(board.errors)
+    if board.fixtures:
+        logger.info("Using %s odds for %s fixtures", label, len(board.fixtures))
+        return board
+    return None
+
+
+def _with_public_odds_fallback(
+    fixtures: list[BoardFixture],
+    errors: list[str],
+    fetched_at: str,
+    **kwargs,
+) -> PricedBoard:
+    from predictor.odds.flashscore import build_flashscore_board
+    from predictor.odds.oddsfilter import build_oddsfilter_board
+
+    collected = list(errors)
+    for builder, label in (
+        (build_oddsfilter_board, "OddsFilter"),
+        (build_flashscore_board, "Flashscore"),
+    ):
+        hit = _try_public_board(builder, label, collected, **kwargs)
+        if hit:
+            return PricedBoard(
+                fixtures=hit.fixtures,
+                fetched_at=hit.fetched_at or fetched_at,
+                errors=collected,
+            )
+    return PricedBoard(fixtures=fixtures, fetched_at=fetched_at, errors=collected)
 
 
 _FAMILY_LABELS = {
@@ -216,10 +288,19 @@ def format_board_for_prompt(board: PricedBoard) -> str:
             "Publish picks with `price_available: false` and no odds.\n"
         )
 
+    sources = {q.source for f in board.fixtures for q in f.quotes}
+    if "pinnacle" in sources:
+        origin = "Pinnacle modelled to SportyBet"
+    elif "oddsfilter" in sources:
+        origin = "OddsFilter consensus (approx; Pinnacle guest feed unavailable)"
+    elif "flashscore" in sources:
+        origin = "Flashscore books (approx; Pinnacle guest feed unavailable)"
+    else:
+        origin = "public books"
     lines = [
         "## Priced market board",
         "",
-        f"Real book prices, fetched {board.fetched_at}. "
+        f"{origin}, fetched {board.fetched_at}. "
         f"{len(board.fixtures)} fixtures, filtered to your odds range.",
         "",
         "**These are the only prices you may use.** Copy the number exactly. "

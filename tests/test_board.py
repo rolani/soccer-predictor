@@ -105,6 +105,14 @@ class TestBuildBoard:
             raise OddsUnavailable("down")
 
         monkeypatch.setattr("predictor.odds.board.list_matchups", boom)
+        monkeypatch.setattr(
+            "predictor.odds.oddsfilter.build_oddsfilter_board",
+            lambda **kw: PricedBoard(fixtures=[], fetched_at="now", errors=["oddsfilter down"]),
+        )
+        monkeypatch.setattr(
+            "predictor.odds.flashscore.build_flashscore_board",
+            lambda **kw: PricedBoard(fixtures=[], fetched_at="now", errors=["flashscore down"]),
+        )
         board = build_board(
             start_utc=datetime.now(timezone.utc),
             end_utc=datetime.now(timezone.utc) + timedelta(hours=6),
@@ -113,6 +121,50 @@ class TestBuildBoard:
         )
         assert board.fixtures == []
         assert board.errors
+
+    def test_pinnacle_403_falls_back_to_oddsfilter(self, monkeypatch):
+        from predictor.odds.pinnacle import OddsUnavailable
+
+        def boom():
+            raise OddsUnavailable("Pinnacle returned 403")
+
+        monkeypatch.setattr("predictor.odds.board.list_matchups", boom)
+        monkeypatch.setattr(
+            "predictor.odds.oddsfilter.build_oddsfilter_board",
+            lambda **kw: PricedBoard(fixtures=[fixture()], fetched_at="now", errors=[]),
+        )
+        board = build_board(
+            start_utc=datetime.now(timezone.utc),
+            end_utc=datetime.now(timezone.utc) + timedelta(hours=6),
+            min_odds=1.1,
+            max_odds=3.0,
+        )
+        assert board.fixtures
+        assert board.fixtures[0].home == "Lyon"
+
+    def test_empty_oddsfilter_falls_back_to_flashscore(self, monkeypatch):
+        from predictor.odds.pinnacle import OddsUnavailable
+
+        def boom():
+            raise OddsUnavailable("Pinnacle returned 403")
+
+        monkeypatch.setattr("predictor.odds.board.list_matchups", boom)
+        monkeypatch.setattr(
+            "predictor.odds.oddsfilter.build_oddsfilter_board",
+            lambda **kw: PricedBoard(fixtures=[], fetched_at="now", errors=["empty"]),
+        )
+        monkeypatch.setattr(
+            "predictor.odds.flashscore.build_flashscore_board",
+            lambda **kw: PricedBoard(fixtures=[fixture()], fetched_at="now", errors=[]),
+        )
+        board = build_board(
+            start_utc=datetime.now(timezone.utc),
+            end_utc=datetime.now(timezone.utc) + timedelta(hours=6),
+            min_odds=1.1,
+            max_odds=3.0,
+        )
+        assert board.fixtures
+        assert board.fixtures[0].home == "Lyon"
 
 
 class TestFind:

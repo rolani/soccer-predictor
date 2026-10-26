@@ -74,7 +74,7 @@ python3 -m pytest tests/test_integration.py -v     # starts server, needs API ke
 
 ## Odds source
 
-The web app fetches soccer prices from **Pinnacle's guest feed**, strips the sharp-book vig, then re-applies a SportyBet-like soft-book margin so advertised odds match what you would see on SportyBet. The priced market board is handed to the agent; the server re-checks every submitted number and overwrites mismatches.
+The web app fetches soccer prices from **Pinnacle's guest feed**, strips the sharp-book vig, then re-applies a SportyBet-like soft-book margin so advertised odds match what you would see on SportyBet. If that feed is blocked (common from cloud hosts — HTTP 403), the board falls back to [OddsFilter](https://oddsfilter.com/) consensus 1X2 / Over 2.5 / BTTS, then [Flashscore](https://www.flashscore.com/) match odds. Those fallbacks are approximate public-book prices, not SportyBet-modelled. The priced market board is handed to the agent; the server re-checks every submitted number and overwrites mismatches.
 
 Optional env overrides (add to `.env`):
 

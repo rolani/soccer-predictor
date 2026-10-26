@@ -28,7 +28,7 @@ Web app runs end with one call to the **`submit_picks`** custom tool. Chat runs 
 | `tip` | yes | Full bet text as on the slip |
 | `odds` | number | Copy exactly from the priced market board. The server verifies and overwrites this. Omit when the fixture or market is off the board. |
 | `quoted_odds` | number | **Server-set.** Do not send. Records what you submitted, so pricing drift can be measured. |
-| `price_source` | string | **Server-set.** `pinnacle` or `unpriced`. |
+| `price_source` | string | **Server-set.** `pinnacle`, `oddsfilter`, `flashscore`, or `unpriced`. |
 | `market_family` | string | **Server-set.** One of `goals_totals`, `team_totals`, `halves`, `btts`, `result`, `dc_dnb`, `handicap`, `corners`, `specials`. |
 | `price_available` | no | Default `true`; set `false` when the board has no price |
 | `book` | no | Default `SportyBet ng (modelled)` |

@@ -13,6 +13,11 @@ from predictor.odds.matching import resolve_quote
 from predictor.web.schema import Pick
 
 PRICE_TOLERANCE = 0.005
+_BOOK_LABEL = {
+    "pinnacle": "SportyBet ng (modelled)",
+    "flashscore": "Flashscore (approx)",
+    "oddsfilter": "OddsFilter (approx)",
+}
 
 
 def verify_prices(
@@ -55,14 +60,16 @@ def verify_prices(
                 f"book price {quote.odds:.2f} (corrected)"
             )
 
+        source = quote.source or "pinnacle"
         out.append(
             p.model_copy(
                 update={
                     "odds": quote.odds,
                     "quoted_odds": claimed,
                     "price_available": True,
-                    "price_source": "pinnacle",
+                    "price_source": source,
                     "market_family": quote.family,
+                    "book": _BOOK_LABEL.get(source, p.book),
                 }
             )
         )

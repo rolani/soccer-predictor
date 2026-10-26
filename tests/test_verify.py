@@ -73,6 +73,45 @@ class TestOverwrite:
         assert out[0].market_family == "goals_totals"
         assert out[0].price_available is True
 
+    def test_flashscore_quote_keeps_flashscore_source(self):
+        fs_board = PricedBoard(
+            fixtures=[
+                BoardFixture(
+                    league="Ligue 1",
+                    home="Paris Saint-Germain",
+                    away="Lyon",
+                    kickoff_utc="2026-10-26T19:30:00Z",
+                    kickoff_et="3:30 PM ET",
+                    matchup_id=9,
+                    quotes=[
+                        MarketQuote(
+                            family="goals_totals",
+                            market="m",
+                            tip="Over 1.5 goals",
+                            line=1.5,
+                            side=None,
+                            period=0,
+                            odds=1.45,
+                            raw_odds=1.45,
+                            fair_probability=0.69,
+                            source_key="fs",
+                            source="flashscore",
+                        )
+                    ],
+                )
+            ],
+            fetched_at="now",
+            errors=[],
+        )
+        out, _ = verify_prices(
+            [pick(match="Paris Saint-Germain vs Lyon", odds=1.60)],
+            fs_board,
+        )
+        assert out[0].price_available is True
+        assert out[0].odds == 1.45
+        assert out[0].price_source == "flashscore"
+        assert out[0].book == "Flashscore (approx)"
+
     def test_matching_price_produces_no_note(self):
         out, notes = verify_prices([pick(odds=1.18)], board())
         assert out[0].odds == 1.18

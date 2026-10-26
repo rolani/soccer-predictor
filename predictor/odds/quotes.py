@@ -36,6 +36,7 @@ class MarketQuote:
     raw_odds: float
     fair_probability: float
     source_key: str
+    source: str = "pinnacle"
 
 
 def _price_group(

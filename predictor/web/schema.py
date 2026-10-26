@@ -48,7 +48,7 @@ class Pick(BaseModel):
     tip: str
     odds: float | None = Field(default=None, gt=1.0)
     quoted_odds: float | None = None
-    price_source: str = "unpriced"  # pinnacle | unpriced
+    price_source: str = "unpriced"  # pinnacle | oddsfilter | flashscore | unpriced
     market_family: str = ""
     price_available: bool = True
     book: str = "SportyBet ng (modelled)"
